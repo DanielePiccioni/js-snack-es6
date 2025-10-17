@@ -41,5 +41,14 @@ for (let i = 0; i < squadre.length; i++) {
 }
 
 //creare un array per solo nomi e falli 
+const minimizzato = [];
+
+for (let i = 0; i < squadre.length; i++) {
+  minimizzato.push({
+    nome: squadre[i].nome,
+    falliSubiti: squadre[i].falliSubiti
+  });
+}
 
 // stampare il risultato in console
+console.log(minimizzato);
