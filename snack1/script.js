@@ -28,6 +28,7 @@ const biciclette = [
 ];
 
 // stampare l'array per verificare sia corretto
+console.log(biciclette);
 
 // trovare la bici con il peso minore
 
