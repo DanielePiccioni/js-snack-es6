@@ -31,6 +31,14 @@ const biciclette = [
 console.log(biciclette);
 
 // trovare la bici con il peso minore
+let biciLeggera = biciclette[0];
+for (let i = 1; i < biciclette.length; i++) {
+  if (biciclette[i].peso < biciLeggera.peso) {
+    biciLeggera = biciclette[i];
+  }
+}
+//stampare in console il risultato della bici piu leggera
+console.log(biciLeggera);
 
 // stampare il risultato in html
 
