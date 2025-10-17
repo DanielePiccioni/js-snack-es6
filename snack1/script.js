@@ -41,4 +41,5 @@ for (let i = 1; i < biciclette.length; i++) {
 console.log(biciLeggera);
 
 // stampare il risultato in html
-
+const risultato = document.getElementById("risultato");
+risultato.innerText = `la piu leggera è la ${biciLeggera.nome} e pesa ${biciLeggera.peso} kg`;
