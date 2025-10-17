@@ -18,3 +18,14 @@ TOOLS:
 -creare un array che contenga solo nome e falli subiti
 -stampare il risultate in console
 */
+
+
+//array con oggetti delle squadre 
+
+//controllo se l'array funziona
+
+// generazione numeri randomici per punti e falli
+
+//creare un array per solo nomi e falli 
+
+// stampare il risultato in console
