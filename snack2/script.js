@@ -35,6 +35,10 @@ console.log(squadre);
 
 
 // generazione numeri randomici per punti e falli
+for (let i = 0; i < squadre.length; i++) {
+  squadre[i].puntiFatti = Math.floor(Math.random() * 100) + 1;
+  squadre[i].falliSubiti = Math.floor(Math.random() * 100) + 1;
+}
 
 //creare un array per solo nomi e falli 
 
