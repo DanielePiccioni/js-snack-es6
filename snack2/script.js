@@ -21,8 +21,18 @@ TOOLS:
 
 
 //array con oggetti delle squadre 
-
+const squadre = [
+  { nome: "inter", puntiFatti: 0, falliSubiti: 0 },
+  { nome: "milan", puntiFatti: 0, falliSubiti: 0 },
+  { nome: "juve", puntiFatti: 0, falliSubiti: 0 },
+  { nome: "roma", puntiFatti: 0, falliSubiti: 0 },
+  { nome: "napoli", puntiFatti: 0, falliSubiti: 0 },
+  { nome: "atalanta", puntiFatti: 0, falliSubiti: 0 },
+  { nome: "verona", puntiFatti: 0, falliSubiti: 0 },
+];
 //controllo se l'array funziona
+console.log(squadre);
+
 
 // generazione numeri randomici per punti e falli
 
